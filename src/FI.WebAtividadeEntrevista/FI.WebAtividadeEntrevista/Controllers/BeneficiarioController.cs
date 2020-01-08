@@ -70,7 +70,13 @@ namespace WebAtividadeEntrevista.Controllers
                 return Json("Cadastro alterado com sucesso");
             }
         }
-
+        //[HttpPost]
+        //public ActionResult Excluir(BeneficiarioModel elemet)
+        //{
+            
+        //    BoBeneficiario bo = new BoBeneficiario();
+        //    return bo.Excluir(elemet); 
+        //}
         [HttpGet]
         public ActionResult Alterar(long id)
         {
@@ -86,8 +92,6 @@ namespace WebAtividadeEntrevista.Controllers
                     CPF = model.CPF,
                     Nome = beneficiario.Nome,
                 };
-
-
             }
 
             return View(model);

@@ -21,3 +21,15 @@
         </div>
     </div>
 </form>
+
+
+@section scripts{
+    <script>
+        var urlAlteracao = '@Url.Action("Alterar", "Beneficiario", new { area = "" })';
+        var urlExcluir = '@Url.Action("Excluir", "Beneficiario", new { area = "" })';
+        var urlBeneficiarioList = '@Url.Action("BeneficiarioList", "Beneficiario", new { area = "" })';
+
+    </script>
+    @Scripts.Render("~/bundles/listBeneficiarios")
+}
+<table id="gridClientes" class="table"></table>

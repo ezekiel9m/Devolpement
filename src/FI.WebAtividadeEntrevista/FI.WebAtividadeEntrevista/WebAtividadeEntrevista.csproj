@@ -412,7 +412,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Cliente\Index.cshtml" />
     <Content Include="Views\Cliente\Incluir.cshtml" />
     <Content Include="Scripts\jtable\themes\metro\red\jtable.less" />
     <Content Include="Scripts\jtable\themes\metro\purple\jtable.less" />
@@ -439,6 +438,7 @@
     <Content Include="Views\Beneficiario\Alterar.cshtml" />
     <Content Include="Views\Beneficiario\Forms.cshtml" />
     <Content Include="Views\Beneficiario\Incluir.cshtml" />
+    <Content Include="Views\Cliente\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FI.AtividadeEntrevista\FI.AtividadeEntrevista.csproj">
